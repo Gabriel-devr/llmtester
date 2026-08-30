@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login de Gabriel</title>
+</head>
+
+<body>
+
+    <h1>Acessar Conta</h1>
+
+    <form method="GET" action="sucesso.html">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
+        </div>
+        <div>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Digite seu username" autocomplete="off"
+                pattern="teste@gmail\.com" required>
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite seu password" pattern="gabriel123"
+                required>
+        </div>
+
+        <div>
+            <button type="submit" id="login_botao" name="botao_login">Entrar</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

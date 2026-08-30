@@ -1,0 +1,67 @@
+{
+    "campo_usuario": {
+        "description": "Campo de entrada de texto destinada à identificação do usuário (username/e-mail) para autenticação no sistema",
+        "selector": "#username",
+        "identity": {
+            "tag": "input",
+            "label": {
+                "text": "Usuário",
+                "for": "username"
+            },
+            "attributes": {
+                "id": "username",
+                "name": "username",
+                "type": "text",
+                "placeholder": "Digite seu usuário",
+                "autocomplete": "off",
+                "required": true
+            },
+            "position": {
+                "index_in_form": 0,
+                "preceded_by": "",
+                "followed_by": "campo_senha"
+            }
+        }
+    },
+    "campo_senha": {
+        "description": "Campo de entrada de senha destinada a identificação do usuário (password) para autenticação no sistema",
+        "selector": "#password",
+        "identity": {
+            "tag": "input",
+            "label": {
+                "text": "Senha",
+                "for": "password"
+            },
+            "attributes": {
+                "id": "password",
+                "name": "password",
+                "type": "password",
+                "placeholder": "Digite sua senha",
+                "required": true
+            },
+            "position": {
+                "index_in_form": 1,
+                "preceded_by": "campo_usuario",
+                "followed_by": "botao_entrar"
+            }
+        }
+    },
+    "botao_entrar": {
+        "description": "Botão destinado para enviar os valores de usuario e senha, para conseguir autenticar",
+        "selector": "#btn-login",
+        "identity": {
+            "tag": "button",
+            "text": "Entrar",
+            "attributes": {
+                "id": "btn-login",
+                "name": "login_button",
+                "type": "submit"
+            },
+            "position": {
+                "index_in_form": 2,
+                "preceded_by": "campo_senha",
+                "followed_by": ""
+            }
+        }
+    }
+}
