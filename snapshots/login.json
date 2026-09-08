@@ -1,0 +1,76 @@
+{
+  "captured_at": "2026-09-08T00:17:20.313989+00:00",
+  "elements": [
+    {
+      "attrs": {
+        "autocomplete": "off",
+        "id": "username",
+        "name": "username",
+        "pattern": "teste@gmail\\.com",
+        "placeholder": "Digite seu usuário",
+        "required": "",
+        "type": "text"
+      },
+      "form_index": 0,
+      "index": 0,
+      "label": "Usuário",
+      "rect": {
+        "h": 21,
+        "w": 177,
+        "x": 63,
+        "y": 80
+      },
+      "tag": "input",
+      "text": "",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "attrs": {
+        "id": "password",
+        "name": "password",
+        "pattern": "gabriel123",
+        "placeholder": "Digite sua senha",
+        "required": "",
+        "type": "password"
+      },
+      "form_index": 1,
+      "index": 1,
+      "label": "Senha",
+      "rect": {
+        "h": 21,
+        "w": 177,
+        "x": 51,
+        "y": 101
+      },
+      "tag": "input",
+      "text": "",
+      "type": "password",
+      "visible": true
+    },
+    {
+      "attrs": {
+        "id": "btn-login",
+        "name": "login_button",
+        "type": "submit"
+      },
+      "form_index": 2,
+      "index": 2,
+      "label": null,
+      "rect": {
+        "h": 21,
+        "w": 52,
+        "x": 8,
+        "y": 122
+      },
+      "tag": "button",
+      "text": "Entrar",
+      "type": "submit",
+      "visible": true
+    }
+  ],
+  "schema_version": 1,
+  "selector_scope": "input, button, a, select, textarea, [role]",
+  "source": "file:///C:/Users/Gabriel/Desktop/INICIACAO%20CIENTIFCA/pages/login.html",
+  "title": "Login de Gabriel"
+}
