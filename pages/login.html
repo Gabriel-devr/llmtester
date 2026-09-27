@@ -1,31 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Login de Gabriel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
 </head>
 
 <body>
+    <form id="login-form" action="">
+        <label for="username">Usuário</label>
+        <input id="username" name="username" type="text">
 
-    <h1>Acessar Conta</h1>
+        <label for="password">Senha</label>
+        <input id="password" name="password" type="text">
 
-    <form method="GET" action="sucesso.html">
-        <div>
-            <label for="username">Usuário</label>
-            <input type="text" id="username" name="username" placeholder="Digite seu usuário" autocomplete="off"
-                pattern="teste@gmail\.com" required>
-        </div>
-
-        <div>
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="password" placeholder="Digite sua senha" pattern="gabriel123"
-                required>
-        </div>
-
-        <div>
-            <button type="submit" id="btn-login" name="login_button">Entrar</button>
-        </div>
+        <button type="button" id="btn-login" onclick="window.location.href='sucesso.html'">Entrar</button>
     </form>
 
 </body>

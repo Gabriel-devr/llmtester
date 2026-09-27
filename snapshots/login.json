@@ -1,14 +1,10 @@
 {
-  "captured_at": "2026-09-08T00:17:20.313989+00:00",
+  "captured_at": "2026-09-27T16:00:52.700419+00:00",
   "elements": [
     {
       "attrs": {
-        "autocomplete": "off",
         "id": "username",
         "name": "username",
-        "pattern": "teste@gmail\\.com",
-        "placeholder": "Digite seu usuário",
-        "required": "",
         "type": "text"
       },
       "form_index": 0,
@@ -18,7 +14,7 @@
         "h": 21,
         "w": 177,
         "x": 63,
-        "y": 80
+        "y": 8
       },
       "tag": "input",
       "text": "",
@@ -29,10 +25,7 @@
       "attrs": {
         "id": "password",
         "name": "password",
-        "pattern": "gabriel123",
-        "placeholder": "Digite sua senha",
-        "required": "",
-        "type": "password"
+        "type": "text"
       },
       "form_index": 1,
       "index": 1,
@@ -40,19 +33,19 @@
       "rect": {
         "h": 21,
         "w": 177,
-        "x": 51,
-        "y": 101
+        "x": 287,
+        "y": 8
       },
       "tag": "input",
       "text": "",
-      "type": "password",
+      "type": "text",
       "visible": true
     },
     {
       "attrs": {
         "id": "btn-login",
-        "name": "login_button",
-        "type": "submit"
+        "onclick": "window.location.href='sucesso.html'",
+        "type": "button"
       },
       "form_index": 2,
       "index": 2,
@@ -60,17 +53,17 @@
       "rect": {
         "h": 21,
         "w": 52,
-        "x": 8,
-        "y": 122
+        "x": 468,
+        "y": 8
       },
       "tag": "button",
       "text": "Entrar",
-      "type": "submit",
+      "type": "button",
       "visible": true
     }
   ],
   "schema_version": 1,
   "selector_scope": "input, button, a, select, textarea, [role]",
   "source": "file:///C:/Users/Gabriel/Desktop/INICIACAO%20CIENTIFCA/pages/login.html",
-  "title": "Login de Gabriel"
+  "title": "Login"
 }

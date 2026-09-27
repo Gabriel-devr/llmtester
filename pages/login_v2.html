@@ -1,35 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Login de Gabriel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
 </head>
 
 <body>
+    <!-- Aqui é uma cópia do login, mas com os ids alterados e com um novo campo "Nome" -->
+    <form id="login-form" action="">
 
-    <h1>Acessar Conta</h1>
+        <label for="nome">Nome Completo</label>
+        <input id="nome" type="text" name="nome">
 
-    <form method="GET" action="sucesso.html">
-        <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome">
-        </div>
-        <div>
-            <label for="usuario">Usuário</label>
-            <input type="text" id="usuario" name="usuario" placeholder="Digite seu username" autocomplete="off"
-                pattern="teste@gmail\.com" required>
-        </div>
+        <label for="usuario">Usuário</label>
+        <input id="usuario" name="usuario" type="text">
 
-        <div>
-            <label for="senha">Senha</label>
-            <input type="password" id="senha" name="senha" placeholder="Digite seu password" pattern="gabriel123"
-                required>
-        </div>
+        <label for="senha">Senha</label>
+        <input id="senha" name="senha" type="text">
 
-        <div>
-            <button type="submit" id="login_botao" name="botao_login">Entrar</button>
-        </div>
+        <button type="button" id="botao-entrar" onclick="window.location.href='sucesso.html'">Entrar</button>
     </form>
 
 </body>
