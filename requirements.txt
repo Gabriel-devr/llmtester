@@ -1,0 +1,2 @@
+selenium>=4.20
+google-genai>=0.3
