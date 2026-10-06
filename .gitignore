@@ -30,3 +30,9 @@ Thumbs.db
 
 .env
 .env.local
+
+# Saidas do Curador e dos testes
+*_curado.py
+!core/script_curado.py
+downloads_ementas/
+testes/
