@@ -1,6 +1,6 @@
 """
-Grava uma copia do script com os localizadores curados (teste.py -> teste_curado.py).
-So troca localizadores literais no formato By.X, "valor"; o resto vai para a lista de pendencias.
+Gera uma copia do script de teste com os localizadores curados, sem
+alterar o original (teste.py -> teste_curado.py).
 """
 
 import re
